@@ -1,0 +1,86 @@
+#contenedor {
+    display: flex; /* con esta linea separo el lado izquierdo del derecho */
+    justify-content: center;
+    margin-top: 100px; /* con esto empujamos la hoja de vida hacia abajo */
+    margin-bottom: 200px;
+}
+
+#izquierdo {
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+#izquierdo img {
+    width: 100%;
+    padding-top: 40px; /* colocamos el relleno arriba de la foto */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#info-izquierda {
+    padding-bottom: 150px;
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+#info-izquierda h3 {
+    text-align: center;
+}
+
+#derecho {
+    width: 800px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#informacion {
+    padding-left: 77px;
+    padding-right: 77px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#informacion h3 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 77px;
+
+}
+
+h4 {
+    font-size: 27px;
+}
+
+h5 {
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+}
